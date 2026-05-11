@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws | Best Care For Your Lovely Pets</title>
+    <meta name="description" content="Happy Paws offers premium pet grooming, veterinary care, and pet boarding services. Book an appointment today!">
+    
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+    <!-- Loading Animation -->
+    <div class="loader">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 1.5C13.5 1.5 15.5 3.5 15.5 5.5C15.5 7.5 13.5 9.5 12 9.5C10.5 9.5 8.5 7.5 8.5 5.5C8.5 3.5 10.5 1.5 12 1.5Z" fill="#4a90e2" />
+            <path d="M5.5 8C6.5 8 7.5 9 7.5 10C7.5 11 6.5 12 5.5 12C4.5 12 3.5 11 3.5 10C3.5 9 4.5 8 5.5 8Z" fill="#ff9f43" />
+            <path d="M18.5 8C19.5 8 20.5 9 20.5 10C20.5 11 19.5 12 18.5 12C17.5 12 16.5 11 16.5 10C16.5 9 17.5 8 18.5 8Z" fill="#ff9f43" />
+            <path d="M12 11.5C15.5 11.5 21 13 21 17C21 21 18 22.5 12 22.5C6 22.5 3 21 3 17C3 13 8.5 11.5 12 11.5Z" fill="#4a90e2" />
+        </svg>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <i data-lucide="paw-print"></i>
+                    Happy <span>Paws</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="theme-btn">
+                        <i data-lucide="moon" id="theme-icon"></i>
+                    </button>
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                    <div class="mobile-menu-btn">
+                        <i data-lucide="menu"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right">
+                <h1>Best Care For Your <span>Lovely Pets</span></h1>
+                <p>Ensuring your pets are healthy, happy, and well-groomed. We provide top-notch care with a personal touch.</p>
+                <div class="hero-btns">
+                    <a href="#booking" class="btn btn-primary">Book Appointment</a>
+                    <a href="#about" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img" data-aos="fade-up">
+                    <img src="/images/hero.png" alt="Happy Pets">
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <div class="section-title" style="text-align: left;">
+                        <h2>About Happy Paws</h2>
+                        <p>We are a dedicated team of pet lovers providing the best care for your furry friends.</p>
+                    </div>
+                    <h3>Our Mission & Vision</h3>
+                    <p>Our mission is to create a safe and loving environment for pets, ensuring they receive the highest quality veterinary and grooming services. We envision a world where every pet is treated with respect and care.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h4 class="counter" data-target="1500">0</h4>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="counter" data-target="2000">0</h4>
+                            <p>Pets Treated</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4 class="counter" data-target="10">0</h4>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Our Services</h2>
+                <p>We offer a wide range of services to keep your pets healthy and happy.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <i data-lucide="scissors"></i>
+                    <h3>Pet Grooming</h3>
+                    <p>Professional grooming services including baths, hair trims, and nail clipping.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <i data-lucide="stethoscope"></i>
+                    <h3>Veterinary Care</h3>
+                    <p>Comprehensive health checkups and vaccinations for all types of pets.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <i data-lucide="award"></i>
+                    <h3>Pet Training</h3>
+                    <p>Expert training programs to help your pets learn good behavior and tricks.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <i data-lucide="home"></i>
+                    <h3>Pet Boarding</h3>
+                    <p>Safe and comfortable boarding facilities while you are away.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <i data-lucide="heart"></i>
+                    <h3>Pet Adoption</h3>
+                    <p>Find your new best friend through our adoption program.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <i data-lucide="ambulance"></i>
+                    <h3>Emergency Care</h3>
+                    <p>24/7 emergency services for critical pet health situations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Pet Gallery</h2>
+                <p>Take a look at some of our happy clients.</p>
+            </div>
+            <div class="gallery-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="dogs">Dogs</button>
+                <button class="filter-btn" data-filter="cats">Cats</button>
+                <button class="filter-btn" data-filter="birds">Birds</button>
+                <button class="filter-btn" data-filter="others">Others</button>
+            </div>
+            <div class="gallery-grid" data-aos="fade-up">
+                <div class="gallery-item" data-category="dogs">
+                    <img src="/images/dog.png" alt="Dog">
+                    <div class="gallery-overlay">
+                        <i data-lucide="maximize"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cats">
+                    <img src="/images/cat.png" alt="Cat">
+                    <div class="gallery-overlay">
+                        <i data-lucide="maximize"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="birds">
+                    <img src="/images/bird.png" alt="Bird">
+                    <div class="gallery-overlay">
+                        <i data-lucide="maximize"></i>
+                    </div>
+                </div>
+                <!-- Repeat with other images or placeholders -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="booking" class="appointment">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Book An Appointment</h2>
+                <p>Schedule a visit for your pet today.</p>
+            </div>
+            <div class="booking-form" data-aos="zoom-in">
+                <form id="contact-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="owner-name">Owner Name</label>
+                            <input type="text" id="owner-name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="pet-name">Pet Name</label>
+                            <input type="text" id="pet-name" required placeholder="Pet's Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="pet-type">Pet Type</label>
+                            <select id="pet-type">
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="bird">Bird</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required placeholder="Phone Number">
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Special requirements or questions..."></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Booking</button>
+                </form>
+                <div id="form-message" style="display: none; margin-top: 20px; text-align: center; color: var(--accent); font-weight: 600;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>What Pet Owners Say</h2>
+                <p>Real stories from our happy clients.</p>
+            </div>
+            <div class="swiper testimonials-slider" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="https://i.pravatar.cc/150?u=1" alt="Owner" class="owner-img">
+                            <p class="review-text">"The grooming service is exceptional! My dog looks and smells amazing every time."</p>
+                            <div class="owner-info">
+                                <h4>John Doe</h4>
+                                <p>Dog Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="https://i.pravatar.cc/150?u=2" alt="Owner" class="owner-img">
+                            <p class="review-text">"Very professional veterinary care. They treated my cat with so much love."</p>
+                            <div class="owner-info">
+                                <h4>Sarah Smith</h4>
+                                <p>Cat Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="https://i.pravatar.cc/150?u=3" alt="Owner" class="owner-img">
+                            <p class="review-text">"Found my perfect companion through their adoption program. Highly recommend!"</p>
+                            <div class="owner-info">
+                                <h4>Mike Johnson</h4>
+                                <p>Pet Lover</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Pet Care Blog</h2>
+                <p>Stay updated with the latest tips and news.</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-img">
+                        <img src="/images/dog.png" alt="Dog Training">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Dog Training Guide</h3>
+                        <p>Learn the basic commands and tricks to keep your dog disciplined and active.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-img">
+                        <img src="/images/cat.png" alt="Cat Health">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Cat Health Care</h3>
+                        <p>Essential tips for keeping your indoor cat healthy and engaged.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-img">
+                        <img src="/images/bird.png" alt="Pet Nutrition">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Pet Nutrition Tips</h3>
+                        <p>Understand the dietary needs of different pets for a longer life.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        What services do you provide?
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        We provide grooming, veterinary care, boarding, adoption, and training services for all kinds of pets.
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        Do I need an appointment?
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes, we recommend booking in advance to ensure your pet gets the attention they deserve.
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question">
+                        What are your operating hours?
+                        <i data-lucide="chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        We are open from 8:00 AM to 8:00 PM, Monday to Saturday. Emergency care is available 24/7.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Get In Touch</h3>
+                    <p>Have questions? Reach out to us anytime.</p>
+                    <div class="info-item">
+                        <i data-lucide="map-pin"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Pet Lane, Paws City, PC 45678</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="mail"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@happypaws.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container" data-aos="fade-left">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937618933!2d-73.98731968459377!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480293%3A0x5117f8721ef99881!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1638210000000!5m2!1sen!2sus" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo" style="color: white; margin-bottom: 20px; display: flex;">
+                        <i data-lucide="paw-print"></i>
+                        Happy <span style="color: var(--secondary);">Paws</span>
+                    </a>
+                    <p>Your one-stop destination for all things pet care. We love your pets as much as you do.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Subscribe Newsletter</h4>
+                    <p>Get the latest pet care tips delivered to your inbox.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter Email" required>
+                        <button type="submit" class="btn btn-primary">Join</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Happy Paws Pet Care. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <div class="scroll-top">
+        <i data-lucide="arrow-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
